@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+      @font-face {
+    font-family: 'Neighbourly';
+    src: url('ZTGatha-SemiBold.ttf');
+  }
+    .navbar.navbar-light.bg-light {
+      background-color: #357C77 !important;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000; 
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: white !important;
+    }
+    .navbar-light .navbar-brand {
+      color: white !important;
+      font-family: 'Neighbourly';
+    }
+    .btn-outline-success {
+      color: black !important;
+      border: none !important;
+      background-color: #FDE9B0 !important;
+    }
+    .btn-outline-success:hover {
+      color: white !important;
+      background-color: black !important;
+    }
+
+    footer {
+    background-color: #357C77;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    }
+
+    footer p {
+    font-weight: bold;
+    font-size: 2em;
+    }
+
+    .names {
+    display: flex;
+    justify-content: center;
+    }
+
+    .names span {
+    margin: 0 10px;
+    }
+
+    .header h1 {
+      font-size: 4.5em;
+      font-family: 'Neighbourly';
+    }
+    
+    .home {
+      color: rgb(111, 111, 111);
+      margin-bottom: 1em;
+    }
+
+    .main-container {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 7em;
+      margin-left: 8em;
+      margin-right: 8em;
+    }
+
+    /* .container {
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .colour-scheme{
+        /* margin-top: 2em; */
+        margin-left: 5em;
+        margin-right: 5em;
+        max-width: 80%;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+    .row {
+        margin-top: 1.5em;
+    }
+
+    .colour-col {
+        padding-left: 1em;
+    }
+
+    .colour-img1 {
+        margin-top: 3em;
+    }
+
+    .img-col {
+        display: flex;
+        justify-content: end;
+        height: 100%;
+    }
+
+    .container {
+        margin-top: 10em;
+    }
+
+    .visual-ex img {
+        max-width: 100%;
+        margin-top: 0;
+        display: flex;
+        align-co center;
+    }
+
+    .visual-gnomes img {
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .visual-gnomes-text {
+        margin-top: 3em;
+    }
+
+    .contrast {
+        margin-top: 3em;
+    }
+
+  </style>
+  <title>Neighbourly Styleguide</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Neighbourly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Color Palette</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Typography</a>
+            <a class="dropdown-item" href="#">Images and Graphics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">References Page</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main class="main-container">
+    <h1>Colour Palette</h1>
+    <div class="colour-scheme">
+        <div class="row colour-col">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3 img-col">
+                        <img src="/colours/white.png" class="colour-img1" alt="pure white colour used in colour scheme"/>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Primary Colour</h2>
+                        <h5>#FFFFFF <br/>
+                            Pure White<br/>
+                        </h5>
+                        <p>Pure white is used as our page background for a clean, simple look. 
+                            It helps maintain clarity and reduce clutter, particularly 
+                            beneficial for our content-rich service marketplace app. 
+                            Pure white is also utilized for the main headings and navigation 
+                            buttons on every page, creating a striking contrast against the 
+                            dark teal of the navigation and tab bar.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 img-col">
+                        <img src="/colours/teal.png" class="colour-img1" alt="shade of dark teal used in colour scheme"/>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Accent Colours</h2>
+                        <h5>#357C77<br/>
+                            Myrtle Green<br/>
+                        </h5>
+                        <p>This subdued dark teal shade is used in our navigation and tab bar and can be easily 
+                            associated with our brand. The colour is bold, yet it exudes a soothing, calming tone. 
+                            By adopting this colour as our primary secondary hue, we seamlessly integrate its 
+                            symbolism of open communication with our mission to cultivate a friendly, welcoming, 
+                            and trustworthy environment within our service marketplace.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 img-col">
+                        <img src="/colours/yellow.png" class="colour-img2" alt="shade of yellow used in colour scheme"/>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <h5>#FDE9B0<br/>
+                            Vanilla<br/>
+                        </h5>
+                        <p>On top of pairing really well with Myrtle Green, this pale green-ish yellow shade adds warmth to our colour palette 
+                            and a sense of positivity and cheeriness. Due to its eye-catching properties, this colour is incorporated into 
+                            the action buttons on the app, guiding users to interact intuitively with key features.
+                            We've opted for a pale shade to evoke a gentle and calming effect, avoiding connotations of caution often associated 
+                            with brighter hues.
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3 img-col">
+                        <img src="/colours/black.png" class="colour-img1" alt="shade of black used in colour scheme"/>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Secondary Colour</h2>
+                        <h5>#292929 <br/>
+                            Jet (70% Black)
+                        </h5>
+                        <p>Black text on a white background yields the best readability due to its 
+                            high contrast. Given our digital screen context, we’ve opted to utilize 
+                            this 70% black shade to reduce eye strain as our app contains a lot of 
+                            textual information.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 img-col">
+                        <img src="/colours/grey.png" class="colour-img1" alt="shade of grey used in colour scheme"/>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Neutral Colours</h2>
+                        <h5>#6E6E6E <br/>
+                            Dim Grey <br/>
+                            <br/>
+                            #D6D5D5<br/>
+                            Timberwolf Grey<br/>
+                            <br/>
+                            #F0F0F0<br/>
+                            Anti-flash White
+                        </h5><br/>
+                        <p>These shades of grey are integrated into the app's buttons, section backgrounds, and dimmed text. 
+                            By using these tones, we maintain the clean aesthetic of our app while enhancing the distinction 
+                            of certain elements, improving scannability, and allowing our secondary colours to stand out.</p>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+    </div>
+
+    <div class="colour-examples container">
+        <h2>
+            Visual Examples
+        </h2>
+        <div class="row visual-ex">
+            <div class="col-md-4">
+                <p>
+                    We've incorporated a subtle drop shadow effect on all buttons, enhancing their visibility and inviting users to engage. 
+                    This effect creates a sense of depth, making the buttons appear as if they're at the forefront of the page and ready to be clicked.
+                    Additionally, to provide visual feedback when a button is pressed, we've implemented an inner glow effect, simulating the 
+                    experience of pressing a physical button. <br/>
+                    <br/>
+                    In terms of color, we've opted for a clean and minimalistic aesthetic. Most buttons feature a neutral shade of white, 
+                    which is gentle on the eyes and maintains a cohesive look across the interface. However, for buttons that serve as primary calls to action, 
+                    we've utilized the pale-yellow vanilla colour. This color choice draws attention to these key elements without overwhelming the overall design.
+                    This yellow shade also serves to highlight selections made by users when there are a multi-select options.
+                </p>
+                <p>
+                    On top of the colours listed in the colour palette, we incorporated other colours in our graphical assets for the app. 
+                    These colors complement the palette by maintaining a muted tone and conveying a sense of positivity and friendliness. 
+                    While they may not be part of the official palette, they contribute to the overall visual identity of the app.
+                    This allows us to be creative and include variation in design while keeping the brand identity cohesive.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/colours/grey_button_states.png" alt="example of grey buttons used on the app"/>
+                <img src="/colours/yellow_button_states.png" alt="example of yellow buttons used on the app"/>
+                <img src="/colours/gnomes.png" alt="example of grey buttons used on the app"/>
+            </div>
+            <div class="col-md-4">
+                <img src="/colours/comm_button_states.png"  alt="example of yellow to highlight selection on the app"/>
+                <img src="/colours/newicons.png"  alt="example of yellow buttons used on the app"/>
+            </div>
+                
+
+        </div>
+    </div>
+
+
+    <div class="colour-contrast container">
+        <h2>
+            Colour Contrasts
+        </h2>
+        <div class="row visual-ex contrast">
+            <div class="col-md-5">
+                <p>
+                    Our body text meets the WCAG AA and AAA accessibility standards, so do our buttons with black text, some on a light grey background,
+                    others on a pale yellow background.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="/colours/black_whitebg.png" alt="example of yellow buttons used on the app"/><br/>
+                <img src="/colours/black_yellowbutton.png"  alt="example of yellow buttons used on the app"/><br/>
+                <img src="/colours/black_greybutton.png"  alt="example of grey buttons used on the app"/><br/>
+            </div>
+
+            <div class="row visual-ex contrast">
+                <div class="col-md-5">
+                    <p>
+                        The white text on dark teal in our navigation bar and onboarding page title meets the AA accessibility standard for large text and graphics, 
+                        as defined by WCAG. We stick to this standard by utilizing font sizes of 24pt and 36pt in this area.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/colours/navbar.png" alt="example of yellow buttons used on the app"/><br/>
+                </div>
+            </div>
+
+            <div class="row visual-ex contrast">
+                <div class="col-md-5">
+                    <p>
+                        Unfortunately, pale yellow on dark teal does not meet any of the WCAG standards. This colour scheme is currently used as the colour 
+                        of the active button in our tab bar with a font size of 16pt regular. We are exploring alternative approaches to adjust the active 
+                        button colours to adhere with WCAG standards, while also maintaining cohesion with our existing colour schemes. Another color combination 
+                        that did not meet the WCAG requirements is the use of grey placeholder text in white input fields.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/colours/tabbutton_contrast.png"  alt="example of yellow buttons used on the app"/><br/>
+                    <img src="/colours/grey_fields.png"  alt="example of yellow buttons used on the app"/><br/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+  </main>
+
+  <footer>
+    <p>Neighbourly</p>
+    <div class="names">
+        <span>Holden</span>
+        <span>Jasmine</span>
+        <span>Jackson</span>
+    </div>
+  </footer>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
