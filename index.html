@@ -37,6 +37,7 @@
     background-color: #357C77;
     color: white;
     text-align: center;
+    margin-top: 8em;
     padding: 20px 0;
     }
 
@@ -72,52 +73,28 @@
       min-width: 30em;
   
     }
-    .header h1 {
+    
+    h1 {
       font-size: 4.5em;
       font-family: 'Neighbourly';
     }
-    .description-content {
-      display: flex;
-      flex-direction: column;
-      min-width: 30em;
-      align-items: center;
-      text-align: center;
-    }
-    .img-container-one {
+    
+    .gnomes {
+      max-width: 50%;
       display: flex;
       justify-content: center;
-      align-items: center;
-      margin-top: 5em;
     }
-    .full-color-logo-content {
-      display: flex;
-      width: 50%;
-      flex-direction: column;
-      row-gap: 1em;
-      justify-content: center;
-    }
-    .full-color-logo img {
-      width: 100%;
-    }
-    .desc-number {
-      color: rgb(80, 80, 80);
-    }
-    .full-color-logo-07 img{
-      max-height: 50em;
-    }
-    .content-06-07 {
-      display: flex;
-      flex-direction: row;
-      margin-top: 5em;
-      column-gap: 7em;
-    }
-    .content-06-07-container {
+
+    .gnomes-container {
       display: flex;
       justify-content: center;
-      margin-bottom: 4em;
+      margin-top: 3em;
+      margin-bottom: 3em;
     }
-    .full-color-logo-desc-06 h1{
-      width: 10em;
+
+    .intro {
+      margin-top: 3em;
+      max-width: 50%;
     }
 
     .home {
@@ -139,6 +116,9 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logo.html">Our Logo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/colours.html">Color Palette</a>
@@ -164,93 +144,25 @@
     </div>
   </nav>
   <main>
-    <div class="container">
-      <h1 class="home">Home</h1>
-      <div class="header">
-        <h1>Logo Rationale</h1>
+    <div class="container ">
+      <h1>Hello, We Are Neighbourly!</h1>
+      <div class="intro">
+        <p>Neighbourly is a community driven app that lets everyone helps everyone!
+          Within Neighbourly you can help others with tasks, or do the tasks to help others. 
+          Making some extra money and helping your community at the same time.
+        Additionally, you can attend classes held by our mentors or partners, and learn a variety of new skills!</p>
+        <p>Neighbourly is designed & developed by Holden Budiman, Jasmine Putri and Jackson Saini. While we're still in development,
+          feel free to get to know us a little bit more!
+        </p>
       </div>
-      <div class="description">
-        <p>While experimenting with logo ideas, we aimed to find balance in simplicity and storytelling.  While attaching a logo to our companies vision was difficult we cycled through options and ended up choosing our current design for multiple reasons. Our app prioritizes simplicity and community at its core, while working our our logo this was our foremost thought. The Neighbourly logo is a simple design of a N with rounded edges which portrays an inviting feeling to community members. The logo is shaped as a house to represent our vision of connecting people with services in their neighbourhood.  The colour scheme of myrtle green, white, and vanilla was chosen to match the apps general theme while portraying an inviting family based image with modern colours. The dark myrtle green contrasts well with both vanilla yellow and white which allows the logo to stand out using any of the three colour combinations. This contrasts allows the logo to be scaled easily and is readable for users at almost all sizes. Spacing the decorative aspects of the logo with the letter N was included but minimized to allow the user to associate the two graphics together while simultaneously allowing the eye to still read out the company name Neighbourly.</p>
-      <div class="description-content">
-        <p>logo progression (trials)</p>
-        <img src="neighbourly_logos/progression_logos.svg" alt="progression logos">
+
+      <div class="gnomes-container">
+        <img class="gnomes" src="/gnomes_together.png" alt="illustration of gnomes welcoming user"/>
       </div>
-      </div>
+      <h2>
+        Coming Soon
+      </h2>
     </div>
-    <div class="img-container-one">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">1.</span> Full Color Logos</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos.png" alt="full color logo">
-      </div>
-    </div>
-    </div>
-    <div class="img-container-one">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">2.</span> Black & White Logos</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos02.png" alt="black and white logos">
-      </div>
-    </div>
-    </div>
-    <div class="img-container-one">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">3.</span> Grey Scale Logos</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos03.png" alt="grey scale logos">
-      </div>
-    </div>
-    </div>
-    <div class="img-container-one">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">4.</span> Monochromatic Logos</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos04.png" alt="monochromatic logos">
-      </div>
-    </div>
-    </div>
-    <div class="img-container-one">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">5.</span> Horizontal Logos</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos05.png" alt="horizontal logos">
-      </div>
-    </div>
-    </div>
-    <div class="content-06-07-container">
-    <div class="content-06-07">
-    <div class="img-container-six">
-      <div class="full-color-logo-content">
-        <div class="full-color-logo-desc-06">
-        <h1><span class="desc-number">6.</span> Vertical Logos</h1>
-        </div>
-      <div class="full-color-logo-07">
-        <img src="neighbourly_logos/Neighbourly_logos06.png" alt="Vertical logos">
-      </div>
-    </div>
-    </div>
-    <div class="img-container-seven">
-      <div class="full-color-logo-content-seven">
-        <div class="full-color-logo-desc">
-        <h1><span class="desc-number">7.</span> Favicons</h1>
-        </div>
-      <div class="full-color-logo">
-        <img src="neighbourly_logos/Neighbourly_logos07.png" alt="Favicons">
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
   </main>
   <footer>
     <p>Neighbourly</p>

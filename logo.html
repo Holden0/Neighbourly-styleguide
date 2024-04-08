@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+      @font-face {
+    font-family: 'Neighbourly';
+    src: url('ZTGatha-SemiBold.ttf');
+  }
+    .navbar.navbar-light.bg-light {
+      background-color: #357C77 !important;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000; 
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: white !important;
+    }
+    .navbar-light .navbar-brand {
+      color: white !important;
+      font-family: 'Neighbourly';
+    }
+    .btn-outline-success {
+      color: black !important;
+      border: none !important;
+      background-color: #FDE9B0 !important;
+    }
+    .btn-outline-success:hover {
+      color: white !important;
+      background-color: black !important;
+    }
+
+    footer {
+    background-color: #357C77;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 8em;
+    }
+
+    footer p {
+    font-weight: bold;
+    font-size: 2em;
+    }
+
+    .names {
+    display: flex;
+    justify-content: center;
+    }
+
+    .names span {
+    margin: 0 10px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 7em;
+    }
+    .description {
+      display: flex;
+      flex-direction: row;
+      column-gap: 2em;
+      margin-left: 5em;
+      margin-right: 5em;
+      margin-top: 2em;
+      align-items:center;
+    }
+    .description p {
+      min-width: 30em;
+  
+    }
+    .header h1 {
+      font-size: 4.5em;
+      font-family: 'Neighbourly';
+    }
+    .description-content {
+      display: flex;
+      flex-direction: column;
+      min-width: 30em;
+      align-items: center;
+      text-align: center;
+    }
+    .img-container-one {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5em;
+    }
+    .full-color-logo-content {
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      row-gap: 1em;
+      justify-content: center;
+    }
+    .full-color-logo img {
+      width: 100%;
+    }
+    .desc-number {
+      color: rgb(80, 80, 80);
+    }
+    .full-color-logo-07 img{
+      max-height: 50em;
+    }
+    .content-06-07 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5em;
+      column-gap: 7em;
+    }
+    .content-06-07-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4em;
+    }
+    .full-color-logo-desc-06 h1{
+      width: 10em;
+    }
+
+    .home {
+      color: rgb(111, 111, 111);
+      margin-bottom: 1em;
+    }
+
+  </style>
+  <title>Neighbourly Logo</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Neighbourly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logo.html">Our Logo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/colours.html">Color Palette</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/typography.html">Typography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/graphicsPage.html">Images & Graphics</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">References Page</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <!-- <h1 class="home">Home</h1> -->
+      <div class="header">
+        <h1>Logo Rationale</h1>
+      </div>
+      <div class="description">
+        <p>While experimenting with logo ideas, we aimed to find balance in simplicity and storytelling.  While attaching a logo to our companies vision was difficult we cycled through options and ended up choosing our current design for multiple reasons. Our app prioritizes simplicity and community at its core, while working our our logo this was our foremost thought. The Neighbourly logo is a simple design of a N with rounded edges which portrays an inviting feeling to community members. The logo is shaped as a house to represent our vision of connecting people with services in their neighbourhood.  The colour scheme of myrtle green, white, and vanilla was chosen to match the apps general theme while portraying an inviting family based image with modern colours. The dark myrtle green contrasts well with both vanilla yellow and white which allows the logo to stand out using any of the three colour combinations. This contrasts allows the logo to be scaled easily and is readable for users at almost all sizes. Spacing the decorative aspects of the logo with the letter N was included but minimized to allow the user to associate the two graphics together while simultaneously allowing the eye to still read out the company name Neighbourly.</p>
+      <div class="description-content">
+        <p>logo progression (trials)</p>
+        <img src="neighbourly_logos/progression_logos.svg" alt="progression logos">
+      </div>
+      </div>
+    </div>
+    <div class="img-container-one">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">1.</span> Full Color Logos</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos.png" alt="full color logo">
+      </div>
+    </div>
+    </div>
+    <div class="img-container-one">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">2.</span> Black & White Logos</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos02.png" alt="black and white logos">
+      </div>
+    </div>
+    </div>
+    <div class="img-container-one">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">3.</span> Grey Scale Logos</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos03.png" alt="grey scale logos">
+      </div>
+    </div>
+    </div>
+    <div class="img-container-one">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">4.</span> Monochromatic Logos</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos04.png" alt="monochromatic logos">
+      </div>
+    </div>
+    </div>
+    <div class="img-container-one">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">5.</span> Horizontal Logos</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos05.png" alt="horizontal logos">
+      </div>
+    </div>
+    </div>
+    <div class="content-06-07-container">
+    <div class="content-06-07">
+    <div class="img-container-six">
+      <div class="full-color-logo-content">
+        <div class="full-color-logo-desc-06">
+        <h1><span class="desc-number">6.</span> Vertical Logos</h1>
+        </div>
+      <div class="full-color-logo-07">
+        <img src="neighbourly_logos/Neighbourly_logos06.png" alt="Vertical logos">
+      </div>
+    </div>
+    </div>
+    <div class="img-container-seven">
+      <div class="full-color-logo-content-seven">
+        <div class="full-color-logo-desc">
+        <h1><span class="desc-number">7.</span> Favicons</h1>
+        </div>
+      <div class="full-color-logo">
+        <img src="neighbourly_logos/Neighbourly_logos07.png" alt="Favicons">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer>
+    <p>Neighbourly</p>
+    <div class="names">
+        <span>Holden</span>
+        <span>Jasmine</span>
+        <span>Jackson</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
